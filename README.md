@@ -1,10 +1,15 @@
 Garb
 ====
 
-  http://github.com/vigetlabs/garb
+  Originally forked from: http://github.com/vigetlabs/garb
 
 Important Changes
 =================
+
+  Philip Brocoum (readMedia): Google deprecated their API version 2.3 on
+  Thursday, August 23, 2012. Version 2.4 of the API is mostly
+  backward-compatible except there are new URL endpoints, which have been
+  updated in this release of 0.9.1.1.
 
   With The release of version 0.9.0 I have officially deprecated Garb::Report, Garb::Resource,
   Garb::Profile, and Garb::Account. Garb::Report and Garb::Resource should be replaced by Garb::Model.

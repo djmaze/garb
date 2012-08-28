@@ -7,14 +7,14 @@ require 'garb'
 task :default => :test
 
 spec = Gem::Specification.new do |s|
-  s.name              = 'garb'
+  s.name              = 'readmedia-garb'
   s.version           = Garb::Version.to_s
   s.has_rdoc          = false
-  s.rubyforge_project = 'viget'
-  s.summary           = "Google Analytics API Ruby Wrapper"
-  s.authors           = ['Tony Pitale']
-  s.email             = 'tony.pitale@viget.com'
-  s.homepage          = 'http://github.com/vigetlabs/garb'
+  s.rubyforge_project = 'readmedia'
+  s.summary           = "Google Analytics API (v2.4) Ruby Wrapper"
+  s.authors           = ['Tony Pitale, Philip Brocoum (readMedia)']
+  s.email             = 'Developer@readMedia.com'
+  s.homepage          = 'http://github.com/readmedia/garb'
   s.files             = %w(README.md Rakefile) + Dir.glob("lib/**/*")
   s.test_files        = Dir.glob("test/**/*")
 
