@@ -1,7 +1,7 @@
 module Garb
   module Model
     MONTH = 2592000
-    URL = "https://www.google.com/analytics/feeds/data"
+    URL = "https://www.googleapis.com/analytics/v2.4/data"
 
     def self.extended(base)
       ProfileReports.add_report_method(base)

@@ -1,7 +1,7 @@
 module Garb
   module Resource
     MONTH = 2592000
-    URL = "https://www.google.com/analytics/feeds/data"
+    URL = "https://www.googleapis.com/analytics/v2.4/data"
 
     def self.extended(base)
       # define a method on a module that gets included into profile
